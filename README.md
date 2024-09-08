@@ -6,7 +6,7 @@ Welcome to the **Ecommerce Site** repository, an Amazon clone built using modern
 
 ## 🖥️ Live Site
 
-You can check out the live version of the site here: [Ecommerce Site - Amazon Clone](https://ecommerce-amazon.netlify.app/)
+You can check out the live version of the site here: [Ecommerce Site - Amazon Clone](https://ecommerce-site-amazon.netlify.app)
 
 ## 📂 Project Overview
 
