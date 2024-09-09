@@ -7,11 +7,25 @@
 }
 
 .home__row {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin: 10px;
     z-index: 1;
-    margin-left: 5px;
-    margin-right: 5px;
 }
+
+@media (min-width: 600px) {
+    .home__row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .home__row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 
 .home__image {
     width: 100%;

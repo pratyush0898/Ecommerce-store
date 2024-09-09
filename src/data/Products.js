@@ -1,25 +1,145 @@
 const Products = [
     {
-        "id": "1",
-        "title": "Wireless Bluetooth Headphones",
-        "image": "https://m.media-amazon.com/images/I/61bnUaDGWPL._AC_UY218_.jpg",
-        "price": 59.99,
-        "rating": 4
+      id: "1",
+      title: "Wireless Bluetooth Headphones",
+      image: "https://m.media-amazon.com/images/I/61bnUaDGWPL._AC_UY218_.jpg",
+      price: 59.99,
+      rating: 4,
     },
     {
-        "id": "2",
-        "title": "HP Smart Tank Printer",
-        "image": "https://m.media-amazon.com/images/I/71ZPmbuNGxL._AC_UY218_.jpg",
-        "price": 179.99,
-        "rating": 5
+      id: "2",
+      title: "HP Smart Tank Printer",
+      image: "https://m.media-amazon.com/images/I/71ZPmbuNGxL._AC_UY218_.jpg",
+      price: 179.99,
+      rating: 5,
     },
     {
-        "id": "3",
-        "title": "Iphone 15 pro max",
-        "image": "https://m.media-amazon.com/images/I/31GaGWsjGyL._AC_UY218_.jpg",
-        "price": 1899.99,
-        "rating": 3
-    }
-];
-
-export default Products;
+      id: "3",
+      title: "Iphone 15 pro max",
+      image: "https://m.media-amazon.com/images/I/31GaGWsjGyL._AC_UY218_.jpg",
+      price: 1899.99,
+      rating: 3,
+    },
+    {
+      id: "4",
+      title: "Sony PlayStation 5 Console",
+      image: "https://m.media-amazon.com/images/I/619BkvKW35L._AC_UY218_.jpg",
+      price: 499.99,
+      rating: 5,
+    },
+    {
+      id: "5",
+      title: "Apple MacBook Pro 14-inch",
+      image: "https://m.media-amazon.com/images/I/71XyDLz9j2L._AC_UY218_.jpg",
+      price: 2499.99,
+      rating: 5,
+    },
+    {
+      id: "6",
+      title: "Fitbit Charge 5 Fitness Tracker",
+      image: "https://m.media-amazon.com/images/I/71J5GR0LliL._AC_UY218_.jpg",
+      price: 149.99,
+      rating: 4,
+    },
+    {
+      id: "7",
+      title: "Echo Dot (5th Gen) Smart Speaker",
+      image: "https://m.media-amazon.com/images/I/71hj1fQjefL._AC_UY218_.jpg",
+      price: 49.99,
+      rating: 4,
+    },
+    {
+      id: "8",
+      title: "Samsung 55-Inch QLED 4K Smart TV",
+      image: "https://m.media-amazon.com/images/I/71MlcO29QOL._AC_UY218_.jpg",
+      price: 799.99,
+      rating: 5,
+    },
+    {
+      id: "9",
+      title: "Instant Pot Duo 7-in-1 Electric Pressure Cooker",
+      image: "https://m.media-amazon.com/images/I/61WxBnnfSBL._AC_UY218_.jpg",
+      price: 89.99,
+      rating: 4,
+    },
+    {
+      id: "10",
+      title: "Canon EOS Rebel T7 DSLR Camera",
+      image: "https://m.media-amazon.com/images/I/61U9HybH7GL._AC_UY218_.jpg",
+      price: 449.99,
+      rating: 4,
+    },
+    {
+      id: "11",
+      title: "Nintendo Switch with Neon Blue and Neon Red Joy‑Con",
+      image: "https://m.media-amazon.com/images/I/61-PblYntsL._AC_UY218_.jpg",
+      price: 299.99,
+      rating: 5,
+    },
+    {
+      id: "12",
+      title: "Dyson V15 Detect Cordless Vacuum Cleaner",
+      image: "https://m.media-amazon.com/images/I/61WlNgFQ5FL._AC_UY218_.jpg",
+      price: 699.99,
+      rating: 5,
+    },
+    {
+      id: "13",
+      title: "Logitech MX Master 3 Advanced Wireless Mouse",
+      image: "https://m.media-amazon.com/images/I/61KQN1PJAL._AC_UY218_.jpg",
+      price: 99.99,
+      rating: 5,
+    },
+    {
+      id: "14",
+      title: "Dell XPS 13 Laptop",
+      image: "https://m.media-amazon.com/images/I/81l5BFsGkdL._AC_UY218_.jpg",
+      price: 999.99,
+      rating: 5,
+    },
+    {
+      id: "15",
+      title: "Samsung Galaxy Tab S7 FE",
+      image: "https://m.media-amazon.com/images/I/71Eil95dW8L._AC_UY218_.jpg",
+      price: 529.99,
+      rating: 4,
+    },
+    {
+      id: "16",
+      title: "JBL Flip 5 Waterproof Portable Bluetooth Speaker",
+      image: "https://m.media-amazon.com/images/I/71rYxjIbaPL._AC_UY218_.jpg",
+      price: 79.99,
+      rating: 4,
+    },
+    {
+      id: "17",
+      title: "Garmin Forerunner 245 Music, GPS Running Smartwatch",
+      image: "https://m.media-amazon.com/images/I/71HScDzKxML._AC_UY218_.jpg",
+      price: 299.99,
+      rating: 5,
+    },
+    {
+      id: "18",
+      title: "Sony WH-1000XM4 Noise Cancelling Headphones",
+      image: "https://m.media-amazon.com/images/I/71o8Q5XJS5L._AC_UY218_.jpg",
+      price: 348.99,
+      rating: 5,
+    },
+    {
+      id: "19",
+      title: "GoPro HERO9 Black - Waterproof Action Camera",
+      image: "https://m.media-amazon.com/images/I/71QFt+BGH9L._AC_UY218_.jpg",
+      price: 399.99,
+      rating: 4,
+    },
+    {
+      id: "20",
+      title: "Asus ROG Strix G17 Gaming Laptop",
+      image: "https://m.media-amazon.com/images/I/71Ro57vD2wL._AC_UY218_.jpg",
+      price: 1599.99,
+      rating: 4,
+    },
+  ];
+  
+  export default Products;
+  
