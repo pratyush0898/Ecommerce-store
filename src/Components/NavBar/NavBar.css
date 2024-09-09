@@ -67,3 +67,10 @@
     margin-right: 10px;
     color: white;
 }
+
+@media (max-width: 555px) {
+    .header__search {
+        display: none;
+        opacity: 0;
+    }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket"; // Import ShoppingBasketIcon
+import Logo from '/amazon-text-white.png'
 import { Link } from "react-router-dom";
 import { useStateValue } from "../../StateProvider";
 import { auth } from "../../firebase/firebase.js";
@@ -20,7 +21,7 @@ function NavBar() {
       <Link to="/">
         <img
           className="header__logo"
-          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          src={Logo}
         />
       </Link>
 
